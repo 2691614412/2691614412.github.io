@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019 | Hexo</title>
+  <title>数据库查询命令  | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2019/index.html">
+  <meta name="description" content="select * from stu(学生表) ;SELECT name,age FROM stu(学生表);SELECT name from stu(学生表) ;SELECT name ,addres FROM stu(学生表);SELECT * FROM stu_score(成绩表) ;SELECT SUBJECT,score FROM stu_score(成绩表); SELECT stu_id">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据库查询命令 ">
+<meta property="og:url" content="http://yoursite.com/2019/10/18/数据库查询命令/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="select * from stu(学生表) ;SELECT name,age FROM stu(学生表);SELECT name from stu(学生表) ;SELECT name ,addres FROM stu(学生表);SELECT * FROM stu_score(成绩表) ;SELECT SUBJECT,score FROM stu_score(成绩表); SELECT stu_id">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-10-18T01:16:33.531Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="数据库查询命令 ">
+<meta name="twitter:description" content="select * from stu(学生表) ;SELECT name,age FROM stu(学生表);SELECT name from stu(学生表) ;SELECT name ,addres FROM stu(学生表);SELECT * FROM stu_score(成绩表) ;SELECT SUBJECT,score FROM stu_score(成绩表); SELECT stu_id">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,157 +154,159 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-数据库查询命令" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      数据库查询命令 
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/18/数据库查询命令/" class="archive-article-date">
+
+        
+        <a href="/2019/10/18/数据库查询命令/" class="archive-article-date">
   	<time datetime="2019-10-18T01:16:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-18</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/18/数据库查询命令/">数据库查询命令 </a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>select * from stu(学生表) ;<br>SELECT name,age FROM stu(学生表);<br>SELECT name from stu(学生表) ;<br>SELECT name ,addres FROM stu(学生表);<br>SELECT * FROM stu_score(成绩表) ;<br>SELECT SUBJECT,score FROM stu_score(成绩表);</p>
+<p>SELECT stu_id,score FROM stu_score(成绩表)WHERE stu_id&gt;3;<br>SELECT * FROM stu(学生表)WHERE age&gt;23;<br>SELECT name ,addres,age,id FROM stu(学生表)WHERE id&gt;5;<br>SELECT * FROM stu(学生表) WHERE addres!=’上海’;</p>
+<p>SELECT * FROM stu(学生表)where age in(22,24);<br>SELECT * FROM stu(学生表) WHERE addres!=’上海’and addres!=’深圳’;<br>SELECT * FROM stu(学生表)where addres not in(‘北京’,’上海’,’深圳’);<br>SELECT * FROM stu(学生表)WHERE age BETWEEN 22 and 26;<br>SELECT * FROM stu(学生表)WHERE birthday BETWEEN ‘1993-01-01’ and ‘1993-12-30’;<br>SELECT * FROM stu(学生表) WHERE birthday is null;<br>SELECT * FROM stu(学生表) WHERE birthday is not null;<br>SELECT * FROM stu_score(成绩表) WHERE score BETWEEN 60 and 80;<br>SELECT * FROM stu_score(成绩表) where score in(70,80,90);<br>SELECT * from stu(学生表) WHERE addres=’北京’and age&lt;22;</p>
+<p>SELECT * FROM stu(学生表) ORDER BY age desc;<br>SELECT * FROM stu_score(成绩表) ORDER BY stu_id asc, score desc;<br>SELECT * FROM stu(学生表) LIMIT 3,4;<br>SELECT * FROM stu(学生表) LIMIT 3,15;<br>SELECT * FROM stu(学生表) LIMIT 4,6;</p>
 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/18/数据库查询命令/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/16/sql查询命令/" class="archive-article-date">
-  	<time datetime="2019-10-16T08:45:14.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-16</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/10/16/sql查询命令/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">sql查询命令</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/16/sql查询命令/">sql查询命令</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/16/sql运算符/" class="archive-article-date">
-  	<time datetime="2019-10-16T08:40:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-16</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/16/sql运算符/">sql运算符</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/14/sql命令语句/" class="archive-article-date">
-  	<time datetime="2019-10-14T07:37:23.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-14</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/14/sql命令语句/">sql命令语句</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/11/hello-world/" class="archive-article-date">
-  	<time datetime="2019-10-11T12:00:46.444Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-11</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/11/hello-world/">Hello World</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -323,8 +329,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
